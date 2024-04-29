@@ -1,0 +1,250 @@
+main{
+    margin: auto 0;
+    width: min(1440px, 100%);
+}
+
+.container_social{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+h2{
+    padding-bottom: 30px;
+}
+
+.tags_list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+    li{
+        color: white;
+        cursor: pointer;
+        align-items: center;
+        gap: 10px;
+        display: flex;
+        background-color: black;
+        border-radius: 50px;
+        border: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s, box-shadow 0.3s; /* Ajout d'une transition pour l'effet de transition fluide */
+
+        a{
+            color: white;
+        }
+    }
+}
+
+.tags_list li:hover {
+    box-shadow: 0 0 20px black; /* Effet d'ombre au survol */
+  }
+
+
+//Logo 
+
+.main_top{
+    display: flex;
+    padding:40px;
+    align-items: center;
+    gap: 100px;
+
+    img{
+        width: 100%;
+    }
+}
+
+.section_second{
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 40px;
+    h3{
+        display: flex;
+        font-size: 50px;
+        justify-content: center;
+    }
+    
+    .skills_container{
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        width: 100%;
+    .skills_list{
+
+        h4{
+            font-size: 40px;
+            padding-bottom: 20px;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            li {
+                list-style: none;
+                font-size: 30px;
+                display: flex;
+                gap: 5px;
+                padding-top: 10px;
+                }
+        }
+        
+
+    }
+    
+}
+}
+
+//About
+
+.about_me{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    p{
+        overflow: auto;
+    }
+}
+
+
+
+.section_third{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+h3{
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+
+.card-container{   
+    display: flex; 
+    gap: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+
+.card{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+
+    img{
+        width: 600px;
+    }
+    .card-content{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+
+        a{
+            width: 150px;
+            background-color:black ;
+            color: white;
+            border-radius: 50px;
+            align-self: center;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        a:hover{
+            box-shadow: 0 0 20px black; /* Effet d'ombre au survol */
+            text-decoration: none;
+        }
+    }
+}}
+
+//contact
+
+.container_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+    .contact_list{
+        display: flex;
+        gap: 15px;
+        li{
+            list-style-type: none;
+            background-color:black ;
+            color: white;
+            border-radius: 50px;
+            align-self: center;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+        li:hover{
+            box-shadow: 0 0 20px black; /* Effet d'ombre au survol */
+        }
+    }
+}
+
+@media only screen and (min-width: 380px) and (max-width:780px) {
+   
+main{
+    .main_top{
+        flex-direction: column-reverse;
+        height: auto;
+        text-align: center;
+        .container_social{
+            align-items: center;
+            .tags_container{
+                
+                .tags_list{
+                   flex-wrap: wrap; 
+                   justify-content: center;
+
+                   li{
+                    width: 25%;
+                   }
+                }
+            }
+
+            .about_me{
+                max-width: 500px;
+            }
+        }
+    }
+
+    .skills_container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-container{
+
+        .card{
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    }
+
+    .contact_list{
+        flex-direction: column;
+    }
+
+}
+    
+}

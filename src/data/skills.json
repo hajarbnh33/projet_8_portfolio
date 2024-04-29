@@ -1,0 +1,20 @@
+{
+    "frontEnd": [
+      {"name": "React"},
+      {"name": "HTML5" },
+      {"name": "Sass"}
+    ],
+    "backEnd": [
+      {  "name": "Node.js" },
+      {  "name": "MongoDB" },
+      {  "name": "Express" }
+    ],
+    "design": [
+      { "name": "Figma" }
+    ],
+    "tools": [
+      {  "name": "GitHub" },
+      {  "name": "Trello" },
+      { "name": "Postman" }
+    ]
+  }

@@ -1,0 +1,26 @@
+[
+    {
+      "nom": "Booki",
+      "image":"projets/image_booki.png",
+      "description": "Créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS. La mission était d'intégrer l'interface responsive de leur site. ",
+      "lien": "https://github.com/hajarbnh33/Projet_2_booki/tree/main/Bensrhayar_Hajar_1_code_201123",
+      "hard":"La difficulté dans ce projet était de travailler avec Flexbox, mais quand on comprend son focntionnement cela devient très pratique.",
+      "technologies":"HTML, CSS, Figma"
+    },
+    {
+      "nom": "Sophie Bluel",
+      "image":"projets/image_sophie.png",
+      "description": "La mission était de créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
+      "lien": "https://github.com/hajarbnh33/Projet-3-archi-webos",
+      "hard":"La difficulté résidait dans l'utilisation du langage Javascript et notemment les apels vers l'API. Après avoir pratiqué et suivi les exemples, j'ai réussi à surmonter cette épreuve et j'ai trouvé cela très passionnant.",
+      "technologies":"Javascript, API"
+    },
+    {
+      "nom": "Mon Vieux Grimoire",
+      "image":"projets/image_vieux.png",
+      "description": "Mon rôle était de créer un serveur avec Express et de le connecter à une base de données MongoDB. Cela impliquera la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données",
+      "lien": "https://github.com/hajarbnh33/P7-Dev-Web-livres-1",
+      "hard":"La difficulté se trouvait dans la compréhension du fonctionnement Back-end. L'apprentissage de nouveaux langages et outils. La meilleure façon de faire était de pratiquer pour comprendre l'utilisation des divers langages.",
+      "technologies":"NodeJs, Express, MongoDB, Moongoose, "
+    }
+  ]
