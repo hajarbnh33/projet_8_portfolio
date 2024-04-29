@@ -26,7 +26,7 @@
     "eject": "react-scripts eject",
     "compile-sass": "sass src/app.scss src/app.css",
     "watch-sass": "sass --watch src/styles/app.scss:src/styles/app.css",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
