@@ -13,7 +13,7 @@ function Project() {
                         <h2 className="card-title">{projet.nom}</h2>
                         <p className="card-description">{projet.description}</p>
                         <p className="card-technologies"><strong>Technologies utilisées :</strong> {projet.technologies}</p>
-                        <p className="card-hard"><strong>Difficultés :</strong> {projet.hard}</p>
+                        <p className="card-hard"><strong>Difficulté :</strong> {projet.hard}</p>
                         <a href={projet.lien} className="card-link">Voir sur GitHub</a>
                     </div>
                 </div>
