@@ -9,13 +9,16 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "sass": "^1.75.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile-sass": "sass src/app.scss src/app.css",
+    "watch-sass": "sass --watch src/styles/app.scss:src/styles/app.css"
   },
   "eslintConfig": {
     "extends": [
