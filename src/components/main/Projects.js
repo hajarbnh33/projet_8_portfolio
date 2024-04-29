@@ -1,5 +1,5 @@
 import React from 'react';
-import projectsData from '../../data/project.json';
+import projectsData from '../../../create-react-app/src/data/project.json';
 
 function Project() {
     return (
