@@ -8,10 +8,10 @@ function Contact (){
             <ul className='contact_list'>
                 <li>hb-79@hotmail.fr</li>
                 <li>
-                    <a href='https://github.com/hajarbnh33' target='_blank'>Lien vers mon profil GitHub</a>
+                    <a href='https://github.com/hajarbnh33' target='_blank' rel="noreferrer">Lien vers mon profil GitHub</a>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/hajar-bensrhayar/'target='_blank'>Lien vers mon profil LinkedIn</a>
+                    <a href='https://www.linkedin.com/in/hajar-bensrhayar/'target='_blank' rel="noreferrer">Lien vers mon profil LinkedIn</a>
                 </li>
             </ul>
         </div>
