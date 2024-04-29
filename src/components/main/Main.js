@@ -3,7 +3,7 @@ import Title from './Title';
 import Logo from './Logo'
 import Skills from './Skills'
 import Project from './Projects';
-import Contact from './Contactontact';
+import Contact from './Contact';
 import '../../styles/Main.scss'
 
 function Main (){
