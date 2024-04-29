@@ -1,6 +1,6 @@
 {
   "homepage": "https://hajarbnh33.github.io/projet_8_portfolio",
-  "name": "mon-portfolio",
+  "name": "projet_8_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,13 +21,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "compile-sass": "sass src/app.scss src/app.css",
-    "watch-sass": "sass --watch src/styles/app.scss:src/styles/app.css",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "watch-sass": "sass --watch src/styles/app.scss:src/styles/app.css"
+    
   },
   "eslintConfig": {
     "extends": [
