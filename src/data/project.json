@@ -1,7 +1,7 @@
 [
     {
       "nom": "Booki",
-      "image":"projets/image_booki.png",
+      "image":"/projets/image_booki.png",
       "description": "Créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS. La mission était d'intégrer l'interface responsive de leur site. ",
       "lien": "https://github.com/hajarbnh33/Projet_2_booki/tree/main/Bensrhayar_Hajar_1_code_201123",
       "hard":"La difficulté dans ce projet était de travailler avec Flexbox, mais quand on comprend son focntionnement cela devient très pratique.",
