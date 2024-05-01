@@ -14,7 +14,7 @@ function Title (){
                     <h4>A propos de moi...</h4>
                     <p>
                     Je suis passionnée par le développement front-end depuis un an, j'aime créer et partager.
-                    De plus, je contribue, en tant que developpeuse web, au un projet d'une association, bénévolement.
+                    De plus, je contribue, en tant que developpeuse web, au projet d'une association, bénévolement.
                     Ma formation m'a permise d'avoir une base solide sur l'environnement du code.
                     </p>
                 </div>
