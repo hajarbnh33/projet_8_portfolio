@@ -22,5 +22,21 @@
       "lien": "https://github.com/hajarbnh33/P7-Dev-Web-livres-1",
       "hard":"La difficulté se trouvait dans la compréhension du fonctionnement Back-end. L'apprentissage de nouveaux langages et outils. La meilleure façon de faire était de pratiquer pour comprendre l'utilisation des divers langages.",
       "technologies":"NodeJs, Express, MongoDB, Moongoose, "
+    },
+    {
+      "nom": "Kasa",
+      "image":"projets/image_kasa.png",
+      "description": "Mon rôle était d'implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
+      "lien": "https://github.com/hajarbnh33/React_Projet_6",
+      "hard":"Le fonctionnement des composants, mais la logique est très simple et ludique.",
+      "technologies":"React, React router, JSON, Javascript, CRA, Nodejs"
+    },
+    {
+      "nom": "Nina Carducci",
+      "image":"projets/image_nina.png",
+      "description": "Mon rôle était d'optimiser le référencement d’un site, en améliorant sa performance et son accessibilité.",
+      "lien": "https://github.com/hajarbnh33/Nina-carducci-p5",
+      "hard":"L'optimisation d'images avec un poid important. Des outils m'ont permis de recarder chaque image et contribuer à la performance du site.",
+      "technologies":"meta, google rich result, SEO, webp, wave, lighthouse, Schema.org"
     }
   ]
