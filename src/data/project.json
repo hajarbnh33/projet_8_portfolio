@@ -38,5 +38,13 @@
       "lien": "https://github.com/hajarbnh33/Nina-carducci-p5",
       "hard":"L'optimisation d'images avec un poid important. Des outils m'ont permis de recarder chaque image et contribuer à la performance du site.",
       "technologies":"meta, google rich result, SEO, webp, wave, lighthouse, Schema.org"
+    },
+    {
+      "nom": "Météo en temps réel",
+      "image":"projets/image_weather.png",
+      "description": "Création d'une application météo en temps réel. J'ai fais appel à une API publique me permettant d'obtenir les informations en temps réel sur toutes les villes du monde.",
+      "lien": "https://github.com/hajarbnh33/weather",
+      "hard":"Appel à une API publique.",
+      "technologies":"Axios, React, JS, Api, CRA, Npx"
     }
   ]
