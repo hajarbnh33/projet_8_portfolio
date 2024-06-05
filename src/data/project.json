@@ -46,5 +46,13 @@
       "lien": "https://github.com/hajarbnh33/weather",
       "hard":"Appel à une API publique.",
       "technologies":"Axios, React, JS, Api, CRA, Npx"
+    },
+    {
+      "nom": "Shop Chic",
+      "image":"projets/image_shochic.png",
+      "description": "Création site e-commerce toujours en cours de développement. L'objectif est d'y insérer une API permettant le paiment des utilisateurs, l'ajout d'articles dans le panier.",
+      "lien": "https://github.com/hajarbnh33/shopchic",
+      "hard":"Appel à une API paiement.",
+      "technologies":"Reactjs, JS, Api, CRA, Npx"
     }
   ]
