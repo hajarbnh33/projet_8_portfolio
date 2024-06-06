@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff9e5674.css",
-    "main.js": "/static/js/main.28b589aa.js",
+    "main.css": "/static/css/main.277fa18e.css",
+    "main.js": "/static/js/main.f400d35a.js",
     "static/media/logo.png": "/static/media/logo.be7d83ef2c61009e660f.png",
+    "static/media/logo_webh.png": "/static/media/logo_webh.734e8bf728484f818ad5.png",
     "index.html": "/index.html",
-    "main.ff9e5674.css.map": "/static/css/main.ff9e5674.css.map",
-    "main.28b589aa.js.map": "/static/js/main.28b589aa.js.map"
+    "main.277fa18e.css.map": "/static/css/main.277fa18e.css.map",
+    "main.f400d35a.js.map": "/static/js/main.f400d35a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff9e5674.css",
-    "static/js/main.28b589aa.js"
+    "static/css/main.277fa18e.css",
+    "static/js/main.f400d35a.js"
   ]
 }
