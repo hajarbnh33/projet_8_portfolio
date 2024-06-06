@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body{
+  background: linear-gradient(to bottom, #B8CBD0,#EEE6D8 );
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -14,4 +18,8 @@ html {
     flex-direction: column;
   }
   
+}
+
+favicon.ico{
+  width: 200px;
 }

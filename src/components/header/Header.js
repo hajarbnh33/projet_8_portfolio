@@ -1,11 +1,12 @@
 import React from 'react';
 import Navigation from './Navigation'
 import '../../styles/Header.scss'
+import Logoweb from '../../assets/logo_webh.png'
 
 const Header =  () => {
     return (
         <header>
-            <h1>Hajar BENSRHAYAR</h1>
+            <img src={Logoweb} alt='Logo WeBh' id='logo_web' />
             <Navigation/>
         </header>
     
