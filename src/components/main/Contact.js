@@ -6,7 +6,7 @@ function Contact (){
         <div className='container_contact'>
             <h3 id='section4'>Contact</h3>
             <ul className='contact_list'>
-                <li>hb-79@hotmail.fr</li>
+                <li>hajarbnh79@gmail.com</li>
                 <li>
                     <a href='https://github.com/hajarbnh33' target='_blank' rel="noreferrer">Lien vers mon profil GitHub</a>
                 </li>
