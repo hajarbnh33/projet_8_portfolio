@@ -4,6 +4,15 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFile, faEnvelope } from '@fortawesome/free-regular-svg-icons'; 
 
 function Tags (){
+    // Fonction pour gérer le téléchargement du CV
+   const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/cv.pdf'; // Chemin relatif vers le fichier dans le dossier public
+        link.download = 'cv.pdf'; // Nom du fichier à télécharger
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return(
         <div className='tags'>
             <ul className='tags_list'>
@@ -21,7 +30,7 @@ function Tags (){
                 </li>
                 <li> 
                     <FontAwesomeIcon icon={faFile} />
-                    <a href='https://www.linkedin.com/in/hajar-bensrhayar/overlay/1714168140852/single-media-viewer/?profileId=ACoAADwxgzEBBYWTO6KW1UCWHxyz35YDJjT2dRo'target='_blank' rel="noreferrer">
+                    <a href='#' onClick={handleDownload}>
                     CV
                     </a>
                 </li>
