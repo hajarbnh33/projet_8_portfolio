@@ -30,9 +30,9 @@ function Tags (){
                 </li>
                 <li> 
                     <FontAwesomeIcon icon={faFile} />
-                    <a href='#' onClick={handleDownload}>
-                    CV
-                    </a>
+                    <button onClick={handleDownload} style={{ background: 'none', border: 'none', color: 'inherit', cursor: 'pointer', padding: 0, font: 'inherit' }}>
+                        CV
+                    </button>
                 </li>
                 <li> 
                     <FontAwesomeIcon icon={faEnvelope} />
