@@ -225,6 +225,9 @@ main{
         flex-direction: column-reverse;
         height: auto;
         text-align: center;
+        .section_first{
+            width: 100%;
+        }
         .container_social{
             align-items: center;
             .tags_container{
