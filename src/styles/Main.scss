@@ -218,6 +218,64 @@ h3{
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    main{
+        .main_top{
+            flex-direction: column-reverse;
+            height: auto;
+            text-align: center;
+            .section_first{
+                width: 100%;
+            }
+            .container_social{
+                align-items: center;
+                .tags_container{
+                    
+                    .tags_list{
+                       flex-wrap: wrap; 
+                       justify-content: center;
+    
+                       li{
+                        width: 25%;
+                       }
+                    }
+                }
+    
+                .about_me{
+                    max-width: 500px;
+                }
+            }
+        }
+    
+        .skills_container{
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .card-container{
+    
+            .card{
+                flex-direction: column;
+                align-items: center;
+    
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                }
+
+                .card-content{
+                    align-items: center;
+                }
+            }
+        }
+    
+        .contact_list{
+            flex-direction: column;
+        }
+    
+    }
+}
+
 @media only screen and (min-width: 320px) and (max-width:780px) {
    
 main{
